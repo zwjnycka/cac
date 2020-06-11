@@ -1,0 +1,214 @@
+body 
+{
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+    height:100%;
+}
+#header
+{
+    position: fixed;
+    width:100%;
+    height: 30px;
+    background-color: #009999;
+    font-family: URW Chancery L, cursive;
+    font-size: 20px;
+    color: #980000;
+    display: block;
+}
+p
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: URW Chancery L, cursive;
+    font-size: 30px;
+}
+img
+{
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+}
+#image
+{
+    background-color:RGB(35,133,186);
+}
+#text
+{
+    max-width: 80%;
+    margin:auto;
+    background-color: azure;
+}
+h1
+{
+    width: 70%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 54px;
+    margin:30px auto;
+    text-align: center;
+    color: #980000;
+}
+h3, th
+{
+    font-size: 40px;
+    color:#980000;
+    font-family: URW Chancery L, cursive;
+    font-size: 30px;
+}
+#itsimp
+{
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    font-family: URW Chancery L, cursive;
+    font-size: 30px;
+    float:left;
+    margin:auto;
+    display: flex;
+    align-items:center;
+}
+#itsimp2
+{
+    width: 50%;
+    float:left;
+    margin:  auto;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    align-items:center;
+}
+#zp
+{
+    width:50%;
+    float:left;
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    align-items:center;
+}
+#questions
+{
+    width: 50%;
+    float:left;
+    text-align: left;
+    font-family: URW Chancery L, cursive;
+    font-size: 30px;
+    margin:auto;
+    height: 500px;
+}
+
+#datasc
+{
+    
+    float:left;
+    width: 50%;
+    margin: auto;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    
+}
+#datascpic
+{
+    width:50%;
+    float:left;
+    text-align: center;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    align-items:center;
+}
+#certificationpic
+{
+    width:50%;
+    float:left;
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    align-items:center;
+}
+#certification
+{
+    width: 50%;
+    float:left;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items:center;
+}
+#gopp
+{
+    width:55%;
+    float:left; 
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items:center;
+   
+}
+#gopppic
+{
+    width:45%;
+    float:left;
+    text-align: center;
+    margin:  auto;
+    height: 500px;
+    display: flex;
+    align-items:center;
+}
+#cvpic
+{
+    width:50%;
+    float:left;
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    align-items:center;
+}
+#cv
+{
+    width:50%;
+    float:left;
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    align-items:center;
+    
+}
+#footer 
+{
+    width:100%;
+    height: 30px;
+    float:left;
+    text-align: center;
+    margin:auto;
+    background-color: #009999;
+    margin-bottom: 0;
+    color: #980000;
+    display: block;
+    font-size: 20px;
+}
+@media only screen and (max-width: 1200px) {
+  h1 {
+      font-size: 36px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #itsimp, p, td {
+      font-size: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #itsimp, p, td {
+      font-size: 16px;
+  }
+}

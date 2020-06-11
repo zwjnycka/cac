@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Choosing a career</title>
+        <meta name="description" content="Choosing a career" />
+        <meta name="keywords" content="choosing, career" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <script language= "JavaScript" type= "text/javascript">
+                var timerID = null
+                function date()
+                {
+                    var date = new Date();
+                    var dayofweek = date.getDay();
+                    switch(dayofweek){
+                    case 0: dayofweek = "Sunday"; break;
+                    case 1: dayofweek = "Monday"; break;
+                    case 2: dayofweek = "Tuesday"; break;
+                    case 3: dayofweek = "Wednesday"; break;
+                    case 4: dayofweek = "Thursday"; break;
+                    case 5: dayofweek = "Friday"; break;
+                    case 6: dayofweek = "Saturday"; break;
+                    }
+                    var day = date.getDate();
+                    if (day < 10){
+                      day = "0" + day;
+                    }
+                    var month = date.getMonth() + 1;
+                    if (month < 10){
+                      month = "0" + month;
+                    }
+                    var year = date.getYear();
+                    if (year < 1000){
+                      year = 2000 + year - 100;
+                    }
+                    var hour = date.getHours();
+                    var minute = date.getMinutes();
+                    var second = date.getSeconds();
+                    if (minute < 10) minute = "0" + minute;
+                    if (second < 10) second = "0" + second;
+                    var now = dayofweek + ", "+ day + "." + month + "." + year+"  "+ hour + ":" + minute + ":" + second;
+                    document.getElementById("header").innerHTML = now;
+                    setTimeout("date()", 1000); 
+                }
+                    date();
+        </script>
+    </head>
+    <body>
+        <div id="header">
+            <script>date();</script>
+        </div>
+        <p id="image"><img src="gallery/1.png"/><p>
+        <div id="text">
+            <h1>There are so many options out there. How can you choose a career path that’s right for your skills and interests?</h1>
+            <p id="itsimp">
+                It’s important to note that you may have the option to change your path multiple times in your life, making the ability to choose a new career a valuable life skill.
+                You’ll reflect on what kind of work environment you want to be in, what type of work you enjoy, who you want to work with.
+            </p>
+            <div id="itsimp2">
+                <img src="gallery/2.jpg">
+            </div>
+            <br/><br/>
+            <div id="zp">
+                <img src="gallery/3.png">
+            </div>
+            <table id="questions">
+                <tr>
+                    <th>Ask yourself a question:</th>
+                </tr>
+                <tr>
+                    <td>What subjects have you enjoyed studying at school and beyond?</td>
+                </tr>
+                <tr>
+                    <td>What are your key values?</td>
+                </tr>
+                <tr>
+                    <td>What soft skills do you possess?</td>
+                </tr>
+                <tr>
+                    <td>What technical skills do you possess?</td>
+                </tr>
+                <tr>
+                    <td>What natural aptitudes do you have?</td>
+                </tr>
+                <tr>
+                    <td>What’s your personality like?</td>
+                </tr>
+                <tr>
+                    <td>What are you interested in?</td>
+                </tr>
+                <tr>
+                    <td>Do you need to earn a certain salary ?</td>
+                </tr>
+                <tr>
+                    <td>Do you require certain benefits like specific healthcare coverage or certain amount of time off?</td>
+                </tr>
+                <tr>
+                    <td>Could you take a job that involved travel?</td>
+                </tr>
+                <tr>
+                    <td>Do you require any sort of flexibility to work from home ?</td>
+                </tr>
+            </table>
+            <p id="datasc">
+                Start looking for jobs that sound interesting or desirable to you.
+                Identify things you enjoy doing. Evaluate your strengths and talents. If you’re good at organizing and interpreting data, you might write down jobs like data analyst, computer scientist or data scientist.
+            </p>
+            <div id="datascpic">
+                <img src="gallery/4.png">
+            </div>
+            <div id="certificationpic">
+                <img src="gallery/5.png">
+            </div>
+            <div id="certification">
+                <div>
+                    <h3>Job requirements</h3> 
+                    <p>Before choosing a career, you will need to know what certifications, degree, training or other credentials are required.
+                    You’ll need to assess whether you need additional training. While some employers are willing to provide on-the-job training, others will look for candidates who already possess their requirements. For details on a specific job, carefully review the job posting.</p>
+                </div>
+            </div>
+            <div id="gopp">
+                <div>
+                    <h3>Growth opportunities</h3>
+                <p>It’s important to know if there is opportunity for growth in your chosen career. This means the availability you’ll have in the career to advance, gain skills and take on more responsibility.</p>
+                </div>
+            </div>
+            <div id="gopppic">
+                <img src="gallery/6.jpg">
+            </div>
+            <div id="cvpic">
+                <img src="gallery/7.jpg">
+            </div>
+            <div id="cv">
+                <div>
+                    <h3>Resume</h3>
+                <p>Update your update your CV with strengths and skills.Identify your  goals. Pursue your interests. If there is a certain task or activity  you enjoy, spend time developing and exploring those interests.</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            AA2020
+        </div>
+    </body>
+</html>
